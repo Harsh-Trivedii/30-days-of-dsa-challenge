@@ -1,0 +1,24 @@
+Problem: Maximum sum of hour glass
+
+Question: Given two integers N, M and a 2D matrix Mat of dimensions NxM, the task is to find the maximum sum of
+an hourglass.
+An hourglass is made of 7 cells in the following form.
+    A B C
+      D
+    E F G
+    
+    Example 1:
+
+Input:
+N=3,M=3
+Mat=[[1,2,3],[4,5,6],[7,8,9]]
+Output:
+35
+Explanation:
+There is only one hour glass which is
+1 2 3
+   5
+7 8 9 and its sum is 35.
+
+Expected Time Complexity:O(N*M)
+Expected Auxillary Space:O(1)
